@@ -32,6 +32,7 @@ Blog Section: Under construction. Includes a fun animated "Work in Progress" GIF
 
 Footer: Global footer that includes social media links (GitHub, LinkedIn) and ownership information.
 
+
 **Technologies Used**
 
 React: Front-end framework used for creating a responsive user interface.
@@ -46,6 +47,7 @@ Meta Integration: Used for login and data pre-filling in user-specific sections.
 
 GIPHY API: Integrated to embed fun animations on the blog section.
 
+
 **Getting Started**
 
 To get started with the Smart Portfolio Dashboard, follow these instructions to set up the project locally.
@@ -57,6 +59,7 @@ Node.js: Make sure you have Node.js installed.
 npm or yarn: Package managers to install dependencies.
 
 AWS Account: Required if you want to use the AWS S3 integration for media storage.
+
 
 **Installation**
 
@@ -74,6 +77,7 @@ npm install
 
 Set up environment variables (e.g., AWS credentials, Meta login keys). Refer to .env.example for guidance.
 
+
 **Usage**
 
 Start the development server:
@@ -84,9 +88,11 @@ Open http://localhost:3000 to view the project in the browser.
 
 Edit any section to see live changes, thanks to React's hot reloading.
 
+
 **Contributing**
 
 Please feel ftree to downlaod this repository for your own use, but no chnages will be accepted to the files themselves.  Thanks
+
 
 **License**
 
