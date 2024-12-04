@@ -1,0 +1,27 @@
+/* Blog.css */
+.blog-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set to full viewport height for centering */
+    background-image: url('/Users/charlienunn/Documents/smart-portfolio-dashboard/client/public/images/background3.jpg');
+    color: #ffffff; /* Text color for readability */
+  }
+  
+  .under-construction {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9); /* Add some background to make it stand out */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 15px ridge #201643; /* Add a border for contrast */
+  } 
+  
+  .giphy-embed {
+    margin-bottom: 20px;
+    border: none; /* Remove border */
+  }
+
+  

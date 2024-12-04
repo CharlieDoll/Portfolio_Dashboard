@@ -1,0 +1,128 @@
+.education-section {
+  background-color: rgba(94, 85, 131, 0.92);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 750px;
+  color: #333;
+  margin: 70px auto; /* Increased margin to bring the section lower */
+  text-align: center;
+  position: relative;
+}
+
+.education-wheel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.education-banner-container {
+  position: absolute; /* Ensure it's centered within the wheel */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 250px; /* Increased size to make it larger */
+  height: 250px; /* Increased size to make it larger */
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22); /* Adds depth with shadow */
+  animation: spin 20s linear infinite; /* Add spinning animation */
+}
+
+.education-banner-centered {
+  width: 100%;
+  height: auto;
+  transform: scale(1.05); /* Scale slightly to give the impression of being 'larger' */
+}
+
+.education-banner-container:hover {
+  transform: translate(-50%, -50%) scale(1.1); /* Add a slight scale-up effect on hover */
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.4), 0 15px 15px rgba(0, 0, 0, 0.25); /* Enhance depth on hover */
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.education-cards-circle {
+  position: relative;
+  width: 700px;
+  height: 700px;
+}
+
+.education-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  width: 120px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 0.9em;
+  border: 5px groove #4c43ae;
+}
+
+.education-card:nth-child(1) {
+  top: 5%; /* Raised card a little */
+  left: 50%;
+}
+
+.education-card:nth-child(2) {
+  top: 25%;
+  left: 85%; /* Increased left value to widen space */
+}
+
+.education-card:nth-child(3) {
+  top: 60%;
+  left: 85%; /* Increased left value to widen space */
+}
+
+.education-card:nth-child(4) {
+  top: 90%;
+  left: 50%;
+}
+
+.education-card:nth-child(5) {
+  top: 60%;
+  left: 15%; /* Decreased left value to widen space */
+}
+
+.education-card:nth-child(6) {
+  top: 25%;
+  left: 15%; /* Decreased left value to widen space */
+}
+
+.education-card:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.education-icon {
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+  color: #f61e0a;
+}
+
+.education-card h3 {
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+
+.institution {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.duration {
+  color: #4e4d4d;
+}

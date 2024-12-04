@@ -1,0 +1,64 @@
+/* ********************************************  Contact.css  ****************************************************** */
+.contact {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 60px;
+  background-color: rgba(83, 91, 100, 0.98); /* Slight transparency */
+  border-radius: 20px;
+  border: 15px ridge rgba(61, 8, 123, 0.3); /* Lighter, muted border color */
+  
+  /* Add multiple, less vibrant box shadows to create a gentle fading effect */
+  box-shadow: 
+    0 0 15px 5px rgba(52, 6, 103, 0.2),  /* Softer initial shadow */
+    0 0 30px 20px rgba(52, 6, 103, 0.1), /* Slightly larger and less opaque */
+    0 0 50px 40px rgba(52, 6, 103, 0.05); /* Final shadow for a very broad, subtle fading effect */
+}
+
+
+
+
+.contact h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.contact textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact button {
+  padding: 15px; /* Slightly increase padding to make the button more prominent */
+  border: 2px solid #3d087b; /* Add a defined border for better contrast */
+  border-radius: 15px; /* Increase border-radius for a more noticeable rounded effect */
+  background-color: #6d6eb5;
+  color: black; /* Change color to white for better contrast */
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for multiple effects */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.contact button:hover {
+  background-color: #ff3b3b;
+  transform: translateY(-3px); /* Lift the button slightly when hovered */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4); /* Enhance the shadow when hovered */
+}

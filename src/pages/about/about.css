@@ -1,0 +1,40 @@
+.about-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Adds space between the image and the text */
+    border: 10px ridge #3d087b;
+  }
+  
+  .about-content {
+    flex: 1; /* Allow the content to take up remaining space */
+  }
+  
+  .about-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3d087b;
+  }
+  
+  .about-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight:600;
+  } 
+  
+  .about-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0;
+  }
+  

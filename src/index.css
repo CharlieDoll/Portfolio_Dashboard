@@ -1,0 +1,9 @@
+/* index.css */
+body {
+  background-image: url('/Users/charlienunn/Documents/smart-portfolio-dashboard/client/public/images/background3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  filter: none;
+}
