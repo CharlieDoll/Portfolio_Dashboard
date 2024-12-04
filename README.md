@@ -4,21 +4,23 @@ Welcome to the Smart Portfolio Dashboard! This project is a personal portfolio w
 
 **Table of Contents**
 
-**Features**
+***Features***
 
-**Technologies Used**
+***Technologies Used***
 
-**Getting Started**
+***Getting Started***
 
-**Installation**
+***Installation***
 
-**Usage**
+***Usage***
 
-**Contributing**
+***Contributing***
 
-**License**
+***License***
 
-**Features**
+
+
+***Features***
 
 Home Page: Introduces the portfolio owner, featuring an animated welcome message and a call-to-action button to explore projects.
 
@@ -33,7 +35,8 @@ Blog Section: Under construction. Includes a fun animated "Work in Progress" GIF
 Footer: Global footer that includes social media links (GitHub, LinkedIn) and ownership information.
 
 
-**Technologies Used**
+
+***Technologies Used***
 
 React: Front-end framework used for creating a responsive user interface.
 
@@ -48,7 +51,8 @@ Meta Integration: Used for login and data pre-filling in user-specific sections.
 GIPHY API: Integrated to embed fun animations on the blog section.
 
 
-**Getting Started**
+
+***Getting Started***
 
 To get started with the Smart Portfolio Dashboard, follow these instructions to set up the project locally.
 
@@ -61,7 +65,8 @@ npm or yarn: Package managers to install dependencies.
 AWS Account: Required if you want to use the AWS S3 integration for media storage.
 
 
-**Installation**
+
+***Installation***
 
 Clone the repository:
 
@@ -78,7 +83,8 @@ npm install
 Set up environment variables (e.g., AWS credentials, Meta login keys). Refer to .env.example for guidance.
 
 
-**Usage**
+
+***Usage***
 
 Start the development server:
 
@@ -89,11 +95,13 @@ Open http://localhost:3000 to view the project in the browser.
 Edit any section to see live changes, thanks to React's hot reloading.
 
 
-**Contributing**
+
+***Contributing***
 
 Please feel ftree to downlaod this repository for your own use, but no chnages will be accepted to the files themselves.  Thanks
 
 
-**License**
+
+***License***
 
 This project is open source and available under the MIT License.
